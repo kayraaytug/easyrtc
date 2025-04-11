@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easyrtc"
+version = "0.0.1"
+description = "A sample Python project"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE.txt" }
+keywords = ["webrtc", "stream", "camera", "opencv"]
+authors = [{ name = "Kayra Aytug", email = "kayraaytug@outlook.com" }]
+maintainers = [
+  { name = "Kayra Aytug", email = "kayraaytug@outlook.com" }
+]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Build Tools",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Programming Language :: Python :: 3 :: Only",
+]
+dependencies = [
+    "aiortc>=1.4.0",
+    "opencv-python>=4.9.0.80",
+    "av>=10.0.0",
+    "numpy>=1.26.0"
+]
+[project.urls]
+"Homepage" = "https://github.com/kayraaytug/easyrtc"
+"Repository" = "https://github.com/kayraaytug/easyrtc"
+"Bug Reports" = "https://github.com/kayraaytug/easyrtc/issues"
+[tool.setuptools]
